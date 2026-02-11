@@ -1,0 +1,53 @@
+using System;
+
+namespace OlaMundo
+{//início
+    class Program
+    {
+        static void Main(string[] args) //método principaç
+        {
+            //Console.WriteLine("2+3=" + (2+3)); // comando escreva
+            //Console.WriteLine("3-2=" + (3-2));
+            //Console.WriteLine("3*2=" + (3 * 2));
+            //Console.WriteLine("4/2=" + (4 / 2));
+
+            //declaração de variáveis
+            //tipoDoDado nomedaVariavel
+            // tipos: int (numérico inteiro), string (cadeira de caracteres -> "Giu linda!"), 
+            //char (uma única letra), double (numero real), bool (valor lógico V ou F)
+
+            //int n1 = 12;
+            //int n2 = 12;
+
+            //Console.WriteLine(n1 + n2);
+            //Console.WriteLine(Math.PI);
+
+            //string nome = "Giu";
+            //int idade = 16;
+
+            //Console.WriteLine("Olá " + nome + " ,você tem " + idade + " anos!!");
+            //declarar a variável nome e idade
+            //e apresentar: "olá Giu, você tem x anos!!"
+
+            //declarar UMA var númerica inteira e atribuir um valor qualquer
+            //apresentar seu sucessor e seu antecessor
+
+            //int n1 = 17;
+
+            //Console.WriteLine("Número inteiro: 17");
+            //Console.WriteLine("sucessor: " + (n1 + 1));
+            //Console.WriteLine("antecessor: " + (n1 - 1));
+
+            //declarar DUAS var numéricas inteiras e calcular:
+            //a soma dos quadrados dos números 
+            //o quadrado da soma dos números
+
+            int n1 = 10;
+            int n2 = 8;
+
+            Console.WriteLine("Soma das variaveis:" + (n1 + n2));
+            Console.WriteLine("Soma dos quadrados:" + (n1 * n1) + " e " + (n2 * n2) + " igual " + (n1 * n1 + n2 * n2));
+            Console.WriteLine("Quadrados das somas dos números:" + (n1 * n1 + n2 * n2) * (n1 * n1 + n2 * n2));
+        }
+    }
+}//fim
