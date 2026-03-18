@@ -1,0 +1,45 @@
+using System;
+
+namespace Funcoes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a1 = 5;
+            int b2 = 5;
+
+            int soma = a1 + b2;
+            int subtração = a1 - b2;
+            int multiplicação = a1 * b2;
+            int divisão = a1 / b2;
+            int módulo = a1 % b2;
+            int incremento = a1++;
+            int decremento = a1--;
+            int atribuição = a1;
+            bool comparação = a1 == b2;
+
+            Console.WriteLine($"A soma de {a1}+{b2} é = {soma}");
+            Console.WriteLine();
+            Console.WriteLine($"A subtração de {a1}-{b2} é = {subtração}");
+            Console.WriteLine();
+            Console.WriteLine($"A multiplicação de {a1}*{b2} é = {multiplicação}");
+            Console.WriteLine();
+            Console.WriteLine($"A divisão de {a1}/{b2} é = {divisão}");
+            Console.WriteLine();
+            Console.WriteLine($"O resto {a1}%{b2} é = {módulo}");
+            Console.WriteLine();
+            Console.WriteLine($"O incremento de {a1}++ é = {incremento} ");
+            Console.WriteLine();
+            Console.WriteLine($"O decremento de {a1}-- é = {decremento} ");
+            Console.WriteLine();
+            Console.WriteLine($"A atribuição de {a1}-- é = {atribuição} ");
+            Console.WriteLine();
+            Console.WriteLine($"A comparação de {a1}=={b2} é = {comparação} ");
+
+
+
+        }
+
+    }
+}
